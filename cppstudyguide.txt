@@ -1,0 +1,169 @@
+Here is a comprehensive list of C++ concepts you should be familiar with:
+
+Basics
+Syntax and Semantics: Understanding basic C++ syntax and semantics, including statements, expressions, and comments.
+Data Types: Primitive types (int, char, float, double, etc.), derived types (arrays, pointers, references), and user-defined types (structs, classes, enums).
+Variables and Constants: Declaration, initialization, scope, lifetime, and const keyword.
+Operators: Arithmetic, relational, logical, bitwise, assignment, and other operators.
+Control Structures: If-else, switch-case, loops (for, while, do-while), break, continue, and goto.
+Intermediate
+Functions: Declaration, definition, calling, return types, parameters (value, reference, default, and variadic), inline functions, and recursion.
+Pointers and References: Pointer arithmetic, dereferencing, pointer to pointer, references, nullptr, and smart pointers (unique_ptr, shared_ptr, weak_ptr).
+Dynamic Memory Management: new and delete operators, memory leaks, and RAII (Resource Acquisition Is Initialization).
+Namespaces: Defining and using namespaces, the using keyword, and anonymous namespaces.
+Input/Output: Streams (cin, cout, cerr), file I/O (ifstream, ofstream, fstream), and string streams (stringstream).
+Object-Oriented Programming (OOP)
+Classes and Objects: Class definition, object creation, access specifiers (public, private, protected), member functions, and data members.
+Constructors and Destructors: Default, parameterized, copy constructors, and destructor.
+Inheritance: Base and derived classes, access control, overriding, and virtual functions.
+Polymorphism: Compile-time (function overloading and operator overloading) and run-time (virtual functions and dynamic binding).
+Encapsulation: Getters and setters, and access control.
+Abstraction: Abstract classes and pure virtual functions.
+Advanced
+Templates: Function and class templates, template specialization, and template metaprogramming.
+STL (Standard Template Library): Containers (vector, list, map, set, etc.), iterators, algorithms, and functional objects (functors).
+Exception Handling: try, catch, throw, and custom exceptions.
+Type Casting: Static_cast, dynamic_cast, const_cast, and reinterpret_cast.
+Multithreading: Thread management, mutexes, condition variables, and the C++11 threading library.
+Lambda Expressions: Syntax, capture lists, and usage in STL algorithms.
+Move Semantics and Rvalue References: Move constructor, move assignment operator, and std::move.
+Best Practices and Idioms
+RAII (Resource Acquisition Is Initialization): Managing resources (memory, file handles, sockets) using classes.
+Rule of Three/Five/Zero: Implementing copy constructor, copy assignment operator, destructor (and move constructor, move assignment operator if needed).
+Design Patterns: Singleton, Factory, Observer, Strategy, etc.
+Tools and Ecosystem
+Compilers and Build Systems: Using compilers (GCC, Clang, MSVC), build systems (Make, CMake), and package managers (Conan, vcpkg).
+Debugging and Profiling: Using tools like gdb, valgrind, and profiling with tools like gprof.
+Version Control: Basic usage of Git or other version control systems.
+Modern C++ (C++11 and beyond)
+New Features in C++11/14/17/20: auto, range-based for loops, nullptr, enum class, constexpr, noexcept, smart pointers, std::thread, std::regex, and other standard library enhancements.
+Practice
+Code Reviews: Participating in and learning from code reviews.
+Open Source Contributions: Contributing to and learning from open source projects.
+Projects: Building small to medium-sized projects to apply and understand the concepts thoroughly.
+This list covers most of the fundamental and advanced topics in C++ programming. Mastering these will give you a strong foundation in C++ and prepare you for more specialized topics or advanced projects.
+
+Now what is only necessary for a game dev
+ChatGPT
+For game development, you should focus on the following C++ concepts and practices:
+
+Core C++ Concepts
+Data Types and Structures
+
+Primitive types, structs, and classes
+Arrays, vectors, and other STL containers
+Pointers and Memory Management
+
+Pointers and references
+Dynamic memory allocation with new and delete
+Smart pointers (std::unique_ptr, std::shared_ptr)
+Object-Oriented Programming (OOP)
+
+Classes and objects
+Inheritance and polymorphism
+Encapsulation and abstraction
+Functions
+
+Function declaration and definition
+Inline functions and lambdas
+Function overloading
+Templates
+
+Function templates and class templates
+Control Structures
+
+Loops (for, while, do-while)
+Conditionals (if-else, switch-case)
+STL (Standard Template Library)
+
+Vectors, lists, maps, and sets
+Iterators and algorithms (sorting, searching)
+Error Handling
+
+Exception handling with try, catch, and throw
+Game Development Specific Concepts
+Math and Physics
+
+Vectors and matrices
+Trigonometry and geometry
+Collision detection and response
+Graphics Programming
+
+Basics of rendering (2D and 3D)
+OpenGL, DirectX, or Vulkan
+Shaders and graphics pipelines
+Game Loops
+
+Main game loop structure
+Frame rate management and delta time
+Input Handling
+
+Keyboard, mouse, and gamepad input
+Event handling
+Audio Programming
+
+Basics of sound and music integration
+Libraries like FMOD or OpenAL
+Memory Management
+
+Efficient use of memory and avoiding leaks
+Pooling and memory management strategies
+Multithreading
+
+Basic multithreading concepts
+Synchronization (mutexes, condition variables)
+Using threads for performance optimization
+Tools and Libraries
+Game Engines
+
+Unreal Engine (with C++ scripting)
+Unity (using C++ via plugins)
+Godot (via GDNative)
+Graphics Libraries
+
+OpenGL, DirectX, Vulkan
+Audio Libraries
+
+FMOD, OpenAL
+Physics Engines
+
+Bullet Physics, PhysX
+Development Tools
+
+IDEs (Visual Studio, CLion)
+Debugging tools (gdb, Visual Studio Debugger)
+Build systems (CMake)
+Version Control
+
+Basic usage of Git or other version control systems
+Best Practices
+Code Optimization
+
+Profiling and performance tuning
+Memory optimization
+Design Patterns
+
+Game-specific patterns (Game Loop, State, Component)
+General patterns (Singleton, Factory, Observer)
+Resource Management
+
+Efficient loading and management of game assets
+Resource caching
+Modularity and Reusability
+
+Writing modular and reusable code
+Component-based architecture
+Collaborative Development
+
+Working in a team, using version control
+Code reviews and collaboration tools
+Practice
+Build Games
+
+Start with small projects and gradually increase complexity
+Participate in game jams or contribute to open-source game projects
+Learn from Existing Games
+
+Study and analyze source code of existing games and game engines
+Implement features and mechanics from games you like
+By focusing on these concepts and practices, you'll have a solid foundation for game development using C++.
